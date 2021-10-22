@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A742648993ABD5F055EF8877 /* Pods_WSYAlertViewKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE97B0B9524921C1CE2B1ED1 /* Pods_WSYAlertViewKit.framework */; };
 		F858FB9227228ECC00E26065 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F858FB9127228ECC00E26065 /* AppDelegate.m */; };
 		F858FB9527228ECC00E26065 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F858FB9427228ECC00E26065 /* SceneDelegate.m */; };
 		F858FB9827228ECC00E26065 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F858FB9727228ECC00E26065 /* ViewController.m */; };
@@ -17,6 +18,15 @@
 		F858FBA627228ECD00E26065 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F858FBA527228ECD00E26065 /* main.m */; };
 		F858FBB027228ECD00E26065 /* WSYAlertViewKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F858FBAF27228ECD00E26065 /* WSYAlertViewKitTests.m */; };
 		F858FBBB27228ECD00E26065 /* WSYAlertViewKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F858FBBA27228ECD00E26065 /* WSYAlertViewKitUITests.m */; };
+		F858FBE427228F0A00E26065 /* LKPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F858FBCD27228F0A00E26065 /* LKPickerViewController.m */; };
+		F858FBE527228F0A00E26065 /* LKPickerProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = F858FBD027228F0A00E26065 /* LKPickerProtocol.m */; };
+		F858FBE627228F0A00E26065 /* WSYAlertCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F858FBD527228F0A00E26065 /* WSYAlertCollectionCell.m */; };
+		F858FBE727228F0A00E26065 /* LKAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = F858FBD627228F0A00E26065 /* LKAlertAction.m */; };
+		F858FBE827228F0A00E26065 /* LKPickerAlertContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = F858FBD827228F0A00E26065 /* LKPickerAlertContentView.m */; };
+		F858FBE927228F0A00E26065 /* LKPickerSheetContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = F858FBDB27228F0A00E26065 /* LKPickerSheetContentView.m */; };
+		F858FBEA27228F0A00E26065 /* NSArray+SafeIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = F858FBDF27228F0A00E26065 /* NSArray+SafeIndex.m */; };
+		F858FBEB27228F0A00E26065 /* LKBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F858FBE027228F0A00E26065 /* LKBaseTableViewCell.m */; };
+		F858FBEC27228F0A00E26065 /* WSYBaseCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F858FBE227228F0A00E26065 /* WSYBaseCollectionCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45860E36A7B6155FCBD2813A /* Pods-WSYAlertViewKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSYAlertViewKit.release.xcconfig"; path = "Target Support Files/Pods-WSYAlertViewKit/Pods-WSYAlertViewKit.release.xcconfig"; sourceTree = "<group>"; };
+		A1BAE5C03FB5D3D76670974B /* Pods-WSYAlertViewKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSYAlertViewKit.debug.xcconfig"; path = "Target Support Files/Pods-WSYAlertViewKit/Pods-WSYAlertViewKit.debug.xcconfig"; sourceTree = "<group>"; };
+		AE97B0B9524921C1CE2B1ED1 /* Pods_WSYAlertViewKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSYAlertViewKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F858FB8D27228ECC00E26065 /* WSYAlertViewKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSYAlertViewKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F858FB9027228ECC00E26065 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F858FB9127228ECC00E26065 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,6 +69,26 @@
 		F858FBB627228ECD00E26065 /* WSYAlertViewKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSYAlertViewKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F858FBBA27228ECD00E26065 /* WSYAlertViewKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSYAlertViewKitUITests.m; sourceTree = "<group>"; };
 		F858FBBC27228ECD00E26065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F858FBCD27228F0A00E26065 /* LKPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKPickerViewController.m; sourceTree = "<group>"; };
+		F858FBCE27228F0A00E26065 /* LKPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKPickerViewController.h; sourceTree = "<group>"; };
+		F858FBD027228F0A00E26065 /* LKPickerProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKPickerProtocol.m; sourceTree = "<group>"; };
+		F858FBD127228F0A00E26065 /* LKPickerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKPickerProtocol.h; sourceTree = "<group>"; };
+		F858FBD227228F0A00E26065 /* LKAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKAlertAction.h; sourceTree = "<group>"; };
+		F858FBD327228F0A00E26065 /* LKPickerHeaderProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKPickerHeaderProxy.h; sourceTree = "<group>"; };
+		F858FBD527228F0A00E26065 /* WSYAlertCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSYAlertCollectionCell.m; sourceTree = "<group>"; };
+		F858FBD627228F0A00E26065 /* LKAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKAlertAction.m; sourceTree = "<group>"; };
+		F858FBD727228F0A00E26065 /* LKPickerSheetContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKPickerSheetContentView.h; sourceTree = "<group>"; };
+		F858FBD827228F0A00E26065 /* LKPickerAlertContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKPickerAlertContentView.m; sourceTree = "<group>"; };
+		F858FBD927228F0A00E26065 /* LKHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKHeader.h; sourceTree = "<group>"; };
+		F858FBDA27228F0A00E26065 /* WSYAlertCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSYAlertCollectionCell.h; sourceTree = "<group>"; };
+		F858FBDB27228F0A00E26065 /* LKPickerSheetContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKPickerSheetContentView.m; sourceTree = "<group>"; };
+		F858FBDC27228F0A00E26065 /* LKPickerAlertContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKPickerAlertContentView.h; sourceTree = "<group>"; };
+		F858FBDE27228F0A00E26065 /* WSYBaseCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSYBaseCollectionCell.h; sourceTree = "<group>"; };
+		F858FBDF27228F0A00E26065 /* NSArray+SafeIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SafeIndex.m"; sourceTree = "<group>"; };
+		F858FBE027228F0A00E26065 /* LKBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKBaseTableViewCell.m; sourceTree = "<group>"; };
+		F858FBE127228F0A00E26065 /* NSArray+SafeIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SafeIndex.h"; sourceTree = "<group>"; };
+		F858FBE227228F0A00E26065 /* WSYBaseCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSYBaseCollectionCell.m; sourceTree = "<group>"; };
+		F858FBE327228F0A00E26065 /* LKBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKBaseTableViewCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A742648993ABD5F055EF8877 /* Pods_WSYAlertViewKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +117,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12C119271190AE2E8BFE8667 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1BAE5C03FB5D3D76670974B /* Pods-WSYAlertViewKit.debug.xcconfig */,
+				45860E36A7B6155FCBD2813A /* Pods-WSYAlertViewKit.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F5D1CFB7769F9A3C2ECE442B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE97B0B9524921C1CE2B1ED1 /* Pods_WSYAlertViewKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F858FB8427228ECC00E26065 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +142,8 @@
 				F858FBAE27228ECD00E26065 /* WSYAlertViewKitTests */,
 				F858FBB927228ECD00E26065 /* WSYAlertViewKitUITests */,
 				F858FB8E27228ECC00E26065 /* Products */,
+				12C119271190AE2E8BFE8667 /* Pods */,
+				F5D1CFB7769F9A3C2ECE442B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +160,7 @@
 		F858FB8F27228ECC00E26065 /* WSYAlertViewKit */ = {
 			isa = PBXGroup;
 			children = (
+				F858FBCB27228F0A00E26065 /* WSYAlertKit */,
 				F858FB9027228ECC00E26065 /* AppDelegate.h */,
 				F858FB9127228ECC00E26065 /* AppDelegate.m */,
 				F858FB9327228ECC00E26065 /* SceneDelegate.h */,
@@ -140,6 +195,65 @@
 			path = WSYAlertViewKitUITests;
 			sourceTree = "<group>";
 		};
+		F858FBCB27228F0A00E26065 /* WSYAlertKit */ = {
+			isa = PBXGroup;
+			children = (
+				F858FBCC27228F0A00E26065 /* LKPickerViewVC */,
+				F858FBCE27228F0A00E26065 /* LKPickerViewController.h */,
+				F858FBCF27228F0A00E26065 /* LKPickerDelegate */,
+				F858FBD227228F0A00E26065 /* LKAlertAction.h */,
+				F858FBD327228F0A00E26065 /* LKPickerHeaderProxy.h */,
+				F858FBD427228F0A00E26065 /* LKAlertContentView */,
+				F858FBDD27228F0A00E26065 /* Base */,
+			);
+			path = WSYAlertKit;
+			sourceTree = "<group>";
+		};
+		F858FBCC27228F0A00E26065 /* LKPickerViewVC */ = {
+			isa = PBXGroup;
+			children = (
+				F858FBCD27228F0A00E26065 /* LKPickerViewController.m */,
+			);
+			path = LKPickerViewVC;
+			sourceTree = "<group>";
+		};
+		F858FBCF27228F0A00E26065 /* LKPickerDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F858FBD027228F0A00E26065 /* LKPickerProtocol.m */,
+				F858FBD127228F0A00E26065 /* LKPickerProtocol.h */,
+			);
+			path = LKPickerDelegate;
+			sourceTree = "<group>";
+		};
+		F858FBD427228F0A00E26065 /* LKAlertContentView */ = {
+			isa = PBXGroup;
+			children = (
+				F858FBD527228F0A00E26065 /* WSYAlertCollectionCell.m */,
+				F858FBD627228F0A00E26065 /* LKAlertAction.m */,
+				F858FBD727228F0A00E26065 /* LKPickerSheetContentView.h */,
+				F858FBD827228F0A00E26065 /* LKPickerAlertContentView.m */,
+				F858FBD927228F0A00E26065 /* LKHeader.h */,
+				F858FBDA27228F0A00E26065 /* WSYAlertCollectionCell.h */,
+				F858FBDB27228F0A00E26065 /* LKPickerSheetContentView.m */,
+				F858FBDC27228F0A00E26065 /* LKPickerAlertContentView.h */,
+			);
+			path = LKAlertContentView;
+			sourceTree = "<group>";
+		};
+		F858FBDD27228F0A00E26065 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F858FBDE27228F0A00E26065 /* WSYBaseCollectionCell.h */,
+				F858FBDF27228F0A00E26065 /* NSArray+SafeIndex.m */,
+				F858FBE027228F0A00E26065 /* LKBaseTableViewCell.m */,
+				F858FBE127228F0A00E26065 /* NSArray+SafeIndex.h */,
+				F858FBE227228F0A00E26065 /* WSYBaseCollectionCell.m */,
+				F858FBE327228F0A00E26065 /* LKBaseTableViewCell.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +261,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F858FBBF27228ECD00E26065 /* Build configuration list for PBXNativeTarget "WSYAlertViewKit" */;
 			buildPhases = (
+				926AAC26482D76B0D77BA28E /* [CP] Check Pods Manifest.lock */,
 				F858FB8927228ECC00E26065 /* Sources */,
 				F858FB8A27228ECC00E26065 /* Frameworks */,
 				F858FB8B27228ECC00E26065 /* Resources */,
+				DCA74B3852082F90D6C8D7C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -264,13 +380,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		926AAC26482D76B0D77BA28E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WSYAlertViewKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCA74B3852082F90D6C8D7C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WSYAlertViewKit/Pods-WSYAlertViewKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WSYAlertViewKit/Pods-WSYAlertViewKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WSYAlertViewKit/Pods-WSYAlertViewKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F858FB8927228ECC00E26065 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F858FBA627228ECD00E26065 /* main.m in Sources */,
+				F858FBE427228F0A00E26065 /* LKPickerViewController.m in Sources */,
+				F858FBE627228F0A00E26065 /* WSYAlertCollectionCell.m in Sources */,
+				F858FBE727228F0A00E26065 /* LKAlertAction.m in Sources */,
+				F858FBEB27228F0A00E26065 /* LKBaseTableViewCell.m in Sources */,
+				F858FBE927228F0A00E26065 /* LKPickerSheetContentView.m in Sources */,
+				F858FBE527228F0A00E26065 /* LKPickerProtocol.m in Sources */,
 				F858FB9827228ECC00E26065 /* ViewController.m in Sources */,
+				F858FBEC27228F0A00E26065 /* WSYBaseCollectionCell.m in Sources */,
+				F858FBE827228F0A00E26065 /* LKPickerAlertContentView.m in Sources */,
+				F858FBEA27228F0A00E26065 /* NSArray+SafeIndex.m in Sources */,
 				F858FB9227228ECC00E26065 /* AppDelegate.m in Sources */,
 				F858FB9E27228ECC00E26065 /* WSYAlertViewKit.xcdatamodeld in Sources */,
 				F858FB9527228ECC00E26065 /* SceneDelegate.m in Sources */,
@@ -442,6 +609,7 @@
 		};
 		F858FBC027228ECD00E26065 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BAE5C03FB5D3D76670974B /* Pods-WSYAlertViewKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +628,7 @@
 		};
 		F858FBC127228ECD00E26065 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45860E36A7B6155FCBD2813A /* Pods-WSYAlertViewKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
